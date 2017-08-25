@@ -31,3 +31,22 @@ Info selengkapnya ada disini [BITS](https://msdn.microsoft.com/en-us/library/win
 1. Download file hosts ini dengan cara klik "Clone or Download" dan pilih "Download Zip". Lalu extract terlebih dahulu
 2. Saya sarankan untuk mematikan WUDO, jadi klik kanan pada Off_WUDO.bat lalu pilih Run As Administrator.
 3. Setelah langkah kedua, silahkan pilih off / on sesuai kebutuhan anda. Jika ingin melakukan proses update, silahkan pilih yang On_WinUpdate_Bits. Tetapi jika tidak sedang update, silahkan pilih Off_WinUpdate_Bits. Jangan lupa untuk klik kanan dan pilih Run As Administrator
+
+## Cara Pengecekan Service Berjalan / Tidak
+Cara 1:
+1. Buka CMD dengan Run As Administrator
+2. Lalu ketikkan sc query <Service_Name>
+
+- Windows Update = wuauserv
+- Delivery Optimization = DoSvc
+- Background Intelligent Transfer Service = BITS
+
+3. Jika kita ingin mengecek untuk Windows Update, seperti ini yang harus ditulis
+> sc query wuauserv
+4. Setelah diketikkan, langsung enter saja. Coba perhatikan pada hasilnya terutama bagian **STATE**. Jika proses itu berjalan, maka **state** tertulis RUNNING. Sebaliknya jika proses itu berhenti, maka **state** tertulis STOPPED
+
+
+Cara 2:
+1. Pencet tombol Ctrl+R lalu ketikkan services.msc
+2. Lalu silahkan cari servicenya. Misalnya adalah **Windows Update**. Langsung dicari saja. Setelah ketemu klik kanan dan pilih Properties
+3. Akan muncul popup terkait service yang kita pilih. Perhatikan ada **Startup Type** dan **Service Status**. Untuk **service status** sama seperti nomer keempat dalam cara pertama. Sedangkan untuk **Startup Type**, saya menanamkan di script .bat diatas jika **service status** di stop maka **startup type** akan di disabled.
