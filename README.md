@@ -1,17 +1,19 @@
 # Turn On/Off Windows Update, WUDO, Bits
 
-**Windows Update**
+> Project ini akan dibuat dalam versi GUI dalam waktu dekat sehingga user dipermudah dalam memakainya. Terimakasih <br>
+
+**Windows Update**<br>
 Tentu kita semua udah tau fungsi Windows Update ini. Ya tugasnya adalah untuk memperbaiki sistem kita dari celah - celah bug.
 Hal ini membuat PC/Laptop kita semakin aman dari bug - bug tersebut. Tapi terkadang update yang dilakukan dalam jumlah besar sehingga untuk user kuota ini sangat mencekik sekali.
 
 Info selengkapnya ada disini [Windows Update](https://support.microsoft.com/en-us/help/12373/windows-update-faq)
 
-**Windows Update Delivery Optimization**
+**Windows Update Delivery Optimization**<br>
 WUDO adalah singkatan dari Windows Update Delivery Optimization. Pasti asing kan mendengar hal ini. Gampangnya adalah kita dapat melakukan update windows update dan app store melalui PC lain yang sudah mendownload sebelumnya. Terdengar baik bukan? Ya sangat baik tetapi ini juga menjadi ketakutan sekali lagi untuk user kuota. Bayangkan saja kita mendownload file update dan mengirimkannya pada komputer lainnya.
 
 Info selengkapnya ada disini [WUDO](https://privacy.microsoft.com/en-us/windows-10-windows-update-delivery-optimization)
 
-**Background Intelligent Transfer Service**
+**Background Intelligent Transfer Service**<br>
 BITS ini merupakan salah satu sumber masalah yang terjadi pada OS Windows khususnya pada Windows 10. Karena BITS diperuntukkan untuk aplikasi yang mempunyai proses syncing dengan server yang berjalan di background. Jadi kita tidak tahu jika kadang BITS ini berjalan dengan sendirinya.
 
 Info selengkapnya ada disini [BITS](https://msdn.microsoft.com/en-us/library/windows/desktop/bb968799(v=vs.85).aspx)
