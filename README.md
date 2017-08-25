@@ -31,4 +31,3 @@ Info selengkapnya ada disini [BITS](https://msdn.microsoft.com/en-us/library/win
 1. Download file hosts ini dengan cara klik "Clone or Download" dan pilih "Download Zip". Lalu extract terlebih dahulu
 2. Saya sarankan untuk mematikan WUDO, jadi klik kanan pada Off_WUDO.bat lalu pilih Run As Administrator.
 3. Setelah langkah kedua, silahkan pilih off / on sesuai kebutuhan anda. Jika ingin melakukan proses update, silahkan pilih yang On_WinUpdate_Bits. Tetapi jika tidak sedang update, silahkan pilih Off_WinUpdate_Bits. Jangan lupa untuk klik kanan dan pilih Run As Administrator
-
